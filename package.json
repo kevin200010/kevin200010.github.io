@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kevin200010.github.io/Kevin-Patel.github.io",
+  "homepage": "https://kevin200010.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
