@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 import ProjectsPage from './pages/ProjectsPage.jsx'
@@ -13,7 +13,7 @@ import LinkedInPage from './pages/LinkedInPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
@@ -25,6 +25,6 @@ createRoot(document.getElementById('root')).render(
           <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )
