@@ -66,10 +66,10 @@ const Connect = () => {
           <div className="text-neutral-200">
             <p className="font-semibold">Email:</p>
             <a
-              href="mailto:khushineema5@gmail.com"
+              href="mailto:kevin18patel@gmail.com"
               className="text-purple-400 hover:underline"
             >
-              khushineema5@gmail.com
+              kevin18patel@gmail.com
             </a>
           </div>
           <div className="text-neutral-200">

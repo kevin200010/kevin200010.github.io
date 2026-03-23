@@ -27,7 +27,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Khushi Neema
+              Kevin Patel
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -54,7 +54,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 1.2, duration: 1 }}
               src={profilePic}
-              alt="Khushi Neema picture"
+              alt="Kevin Patel picture"
               style={{ width: "400px", height: "500px" }}
             />
           </div>

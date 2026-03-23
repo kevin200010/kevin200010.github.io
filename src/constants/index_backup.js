@@ -9,8 +9,8 @@ import project8 from "../assets/projects/project-8.jpeg";
 
 
 
-export const HERO_CONTENT = `I am Khushi Neema, a dedicated Data Scientist completed my Masters in Data Science at Northeastern University, set to graduate in 2024. With a strong foundation in computer science, I bring practical experience in machine learning, AI, and predictive analytics. I am proficient in using advanced tools such as Python, R, SQL, PyTorch, and TensorFlow, which I leverage to drive strategic decision-making and foster innovation. My passion lies in uncovering data-driven insights that inform strategic decisions and lead to tangible outcomes. I am committed to developing solutions that are both technically robust and scalable, and I aspire to make meaningful contributions to a forward-thinking company in the data science field.`;
-export const ABOUT_TEXT = `I am Khushi Neema, a driven Data Scientist currently pursuing my MS in Data Science at Northeastern University, set to graduate in 2024. With a strong foundation in computer science, I bring hands-on experience in machine learning, predictive analytics, and AI, specializing in time series analysis, predictive modeling, image segmentation, and unsupervised learning techniques such as cluster analysis. Proficient in Python, R, SQL, PyTorch, and TensorFlow, I also have deep knowledge of cloud platforms like AWS, GCP, and Azure, which I utilize for scalable data processing and model deployment. Throughout my career, I have empowered actionable insights through data by implementing demand forecasting, anomaly detection, optimizing data pipelines, and developing custom models, ensuring that solutions are both technically viable and scalable to drive meaningful, strategic outcomes.
+export const HERO_CONTENT = `I am Kevin Patel, a dedicated Data Scientist completed my Masters in Data Science at Northeastern University, set to graduate in 2024. With a strong foundation in computer science, I bring practical experience in machine learning, AI, and predictive analytics. I am proficient in using advanced tools such as Python, R, SQL, PyTorch, and TensorFlow, which I leverage to drive strategic decision-making and foster innovation. My passion lies in uncovering data-driven insights that inform strategic decisions and lead to tangible outcomes. I am committed to developing solutions that are both technically robust and scalable, and I aspire to make meaningful contributions to a forward-thinking company in the data science field.`;
+export const ABOUT_TEXT = `I am Kevin Patel, a driven Data Scientist currently pursuing my MS in Data Science at Northeastern University, set to graduate in 2024. With a strong foundation in computer science, I bring hands-on experience in machine learning, predictive analytics, and AI, specializing in time series analysis, predictive modeling, image segmentation, and unsupervised learning techniques such as cluster analysis. Proficient in Python, R, SQL, PyTorch, and TensorFlow, I also have deep knowledge of cloud platforms like AWS, GCP, and Azure, which I utilize for scalable data processing and model deployment. Throughout my career, I have empowered actionable insights through data by implementing demand forecasting, anomaly detection, optimizing data pipelines, and developing custom models, ensuring that solutions are both technically viable and scalable to drive meaningful, strategic outcomes.
 
 Beyond my technical expertise, I am passionate about problem-solving activities like Sudoku and crosswords that enhance my logical reasoning. I stay active through sports and hiking, and I enjoy the competitive and team aspects of eSports. Additionally, I love to travel, which broadens my perspectives and fuels my creativity. I am excited to continue my career in data science by developing impactful solutions that not only advance the field but also create real value in the world. My goal is to contribute to a forward-thinking company where I can leverage my skills to drive innovation and achieve tangible results.`;
 
@@ -103,8 +103,8 @@ export const MORE_PROJECTS_BUTTON = {
 };
 
 export const CONTACT = {
-  phoneNo: "+1 2016878959 ",
-  email: "khushineema5@gmail.com",
+  phoneNo: "+1 5175059591 ",
+  email: "kevin18patel@gmail.com",
   link: "https://github.com/kevin200010",
 };
 

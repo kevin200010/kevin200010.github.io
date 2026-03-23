@@ -3,9 +3,6 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
-import project7 from "../assets/projects/project-7.jpeg";
-import project8 from "../assets/projects/project-8.jpeg";
 
 export const HERO_CONTENT = `I am Kevin Patel, a Machine Learning and AI Engineer with 5+ years of experience building and deploying production-scale ML and Generative AI systems. Proven impact delivering 60% automation gains, 40% latency reductions, and 20%+ accuracy improvements. Strong expertise in AWS, MLOps, LLM fine-tuning (LoRA, RLHF), and end-to-end ML lifecycle ownership.`;
 
@@ -64,60 +61,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "CompliTru AI - Agentic AI Platform",
+    title: "CompliTru AI — Multi-Turn Agentic LLM System for Cloud Compliance & Security",
     image: project1,
-    description: `Engineered and deployed an agentic AI platform that automated complex regulatory checks and investigations, achieving 60% reduction in manual effort. Architected a central AI orchestration system to streamline multi-model operations, improving end-to-end task success rate by 35% and increasing reliability across business processes.`,
-    technologies: ["AWS Bedrock", "LangChain", "Python", "Agentic AI", "Compliance"],
-    link: "#"
+    description: `Architected a multi-turn conversational governance platform where a LangGraph-orchestrated agent system answers compliance questions, runs cost analysis, triggers security scans, and supports guardrailed remediation from one interface. Built with 6 specialized AI agents, RAG knowledge base for SOC2/HIPAA/ISO/PCI documents in Amazon OpenSearch, guardrailed AWS SDK execution with prompt injection checks and human approval, and Langfuse observability across 7 benchmarked LLMs.`,
+    technologies: ["LangChain", "LangGraph", "Python", "AWS ECS Fargate", "Amazon OpenSearch", "Langfuse", "Redis", "DynamoDB", "GPT-4o", "Claude", "Llama 3.1", "React", "CloudFront"],
+    link: "https://github.com/kevin200010"
   },
   {
-    title: "High-Performance RAG Pipeline",
+    title: "LLM Council — Multi-Model Collaborative Reasoning Platform",
     image: project2,
-    description: `Built a high-performance Retrieval-Augmented Generation (RAG) pipeline delivering up-to-date contextual grounding with 40% latency reduction and 30% accuracy boost in decision-support use cases. Integrated real-time retrieval mechanisms with LLM inference for optimized performance.`,
-    technologies: ["RAG", "LangChain", "Vector DB", "Python", "LLMs"],
-    link: "#"
+    description: `Built a local web application that operationalizes structured multi-model collaboration through a 3-stage pipeline: independent responses from multiple LLMs via OpenRouter, anonymized peer review where models critique and rank each other, and a chairman synthesis stage to produce a final answer. Supports 4 council modes (Default, Round Table, Hierarchy, Assembly Line) with SSE streaming and JSON persistence. Featured in Medium: "Stop Guessing Which LLM Is Right - Let Them Decide Together".`,
+    technologies: ["FastAPI", "OpenRouter API", "React", "Vite", "async httpx", "Server-Sent Events", "GPT-4o", "Claude", "Gemini", "Grok", "Python 3.10+"],
+    link: "https://github.com/kevin200010"
   },
   {
-    title: "AI Orchestration System",
+    title: "Potential Customer Segmentation Using LLM",
     image: project3,
-    description: `Architected a central AI orchestration system to streamline multi-model operations, improving end-to-end task success rate by 35% and increasing reliability across business processes. Implemented robust monitoring and error handling for production deployments.`,
-    technologies: ["AWS", "Python", "Orchestration", "MLOps", "Monitoring"],
-    link: "#"
+    description: `Designed a structured company profiling and segmentation pipeline for Westlake Chemical to identify high-potential B2B clients from 675 company websites. A RAG-backed Q&A chain answered the same 14 structured questions per company using Selenium (5-level crawl, up to 150 URLs/company). Structured answers were embedded with OpenAI Embeddings, stored in FAISS, and clustered using KNN and DBSCAN. PCA visualizations delivered to stakeholders; Q&A approach achieved higher cluster quality vs. naive LLM summaries.`,
+    technologies: ["LangChain", "GPT-3.5 Turbo", "FAISS", "OpenAI Embeddings", "Selenium", "KNN", "DBSCAN", "Scikit-learn", "PCA", "Python", "Pandas", "NumPy"],
+    link: "https://github.com/kevin200010"
   },
   {
-    title: "Time-Series Forecasting Models",
+    title: "LLaMA 2 QLoRA Fine-Tuning",
     image: project4,
-    description: `Developed advanced time-series models (SARIMAX, Prophet, GRU) for demand forecasting, improving accuracy by up to 20%. Implemented real-time ETL pipelines using Kinesis, Lambda, and Redshift for high-speed predictions. Built interactive BI dashboards using QuickSight and Tableau for stakeholder insights.`,
-    technologies: ["Python", "SARIMAX", "Prophet", "GRU", "AWS Kinesis", "Tableau"],
-    link: "#"
+    description: `Implemented a complete QLoRA-based fine-tuning pipeline for LLaMA-2-7B at VERN AI, reducing memory requirements by ~4x while preserving instruction-following quality. Fine-tuned NousResearch/Llama-2-7b-chat-hf on 2,500 self-instruct samples using BitsAndBytes 4-bit quantization, PEFT LoRA adapters (rank 16, alpha 32), SFT-Trainer with fp16 mixed precision, and custom evaluation (BLEU, ROUGE, token-level F1). Featured in Medium: "Unveiling the Power of Language: Fine-Tuning a Large Language Model on an Instruction Dataset".`,
+    technologies: ["LLaMA-2-7B", "QLoRA", "PEFT", "SFT-Trainer", "Hugging Face Transformers", "BitsAndBytes", "PyTorch", "BLEU", "ROUGE", "Weights & Biases", "CUDA", "Python"],
+    link: "https://github.com/kevin200010"
   },
   {
-    title: "Document Parsing Platform (Docsaar)",
+    title: "Multi-objective Optimization Using Inverse DNN and Mixture Density Network",
     image: project5,
-    description: `Built and owned production-grade document parsing platform with ML-powered text extraction and preprocessing pipelines. Improved biomedical NER performance by 5% F1 gain per entity through feature engineering and domain-specific training. Achieved strong NLP performance across multiple tasks.`,
-    technologies: ["Python", "NER", "NLP", "Information Extraction", "Flask"],
-    link: "#"
-  },
-  {
-    title: "Cloud Infrastructure ML Pipeline",
-    image: project6,
-    description: `Implemented end-to-end MLOps infrastructure using AWS SageMaker, CI/CD pipelines, and Docker containerization for automated validation, monitoring, and production deployment. Enabled rapid model iteration and reliable deployment cycles.`,
-    technologies: ["AWS SageMaker", "Docker", "CI/CD", "Python", "MLOps"],
-    link: "#"
-  },
-  {
-    title: "LLM Fine-tuning with LoRA/RLHF",
-    image: project7,
-    description: `Fine-tuned GPT-4 and LLaMA models using LoRA and RLHF techniques for domain-specific query generation and compliance tasks. Improved controllability and response relevance in production environments while maintaining computational efficiency.`,
-    technologies: ["LoRA", "RLHF", "GPT-4", "LLaMA", "Python", "Hugging Face"],
-    link: "#"
-  },
-  {
-    title: "Multimodal Emotion-Aware AI Agent",
-    image: project8,
-    description: `Designed and deployed emotion-aware multimodal agents utilizing text, audio, and visual signals to improve contextual understanding and user engagement. Integrated multiple modalities for comprehensive user interaction analysis and response generation.`,
-    technologies: ["Multimodal AI", "Python", "Computer Vision", "Audio Processing", "LLMs"],
-    link: "#"
+    description: `Designed a three-part deep learning system for Siemens to solve a high-dimensional engineering optimization problem: a forward DNN (90%+ accuracy) to classify Pareto-optimal solutions in a 10D design space, an inverse DNN with custom IGD loss for reverse mapping from desired outputs to feasible design parameters, and a Mixture Density Network to model the full probability distribution of valid inputs capturing multimodal distributions. Prevented $220K in projected engineering losses. Validated on ZDT-1 benchmark.`,
+    technologies: ["PyTorch", "NumPy", "SciPy", "Mixture Density Networks", "Scikit-learn", "Matplotlib", "Seaborn", "ZDT-1 benchmark", "Pareto optimization", "Python", "Jupyter"],
+    link: "https://github.com/kevin200010"
   },
 ];
 

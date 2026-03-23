@@ -20,7 +20,7 @@ const About = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ delay: 1.2, duration: 1 }}
                         src={aboutImg}
-                        alt="Khushi Neema picture"
+                        alt="Kevin Patel picture"
                         style={{ width: "400px", height: "500px" }}
                       />
                     </div>
